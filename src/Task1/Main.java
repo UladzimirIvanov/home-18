@@ -14,13 +14,6 @@ public class Main {
         - Вывести сумму оставшихся элементов в стриме*/
         Random random = new Random();
         ArrayList<Integer> list = new ArrayList<>();
-        /*list.add(20);
-        list.add(31);
-        list.add(23);
-        list.add(20);
-        list.add(30);
-        list.add(44);
-        list.add(12);*/
         for (int i = 0; i < 21; i++) {
             list.add(random.nextInt(100));
         }
